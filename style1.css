@@ -253,7 +253,7 @@ body{
     border-radius:5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     overflow: auto;
-    position: center;
+    position: relative;
     background-image: url("backgroundkaheldi.jpg");
     left: 50%;
     transform: translate(-50%);
@@ -282,6 +282,7 @@ body{
     overflow: hidden;
     position: relative;
     background-image: url("heldi4.jpg");
+    background-position: center;
     background-size: cover;
     left: 50%;
     transform: translate(-50%);

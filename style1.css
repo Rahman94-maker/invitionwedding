@@ -126,6 +126,7 @@ body{
     background: rgb(230,232,189);
     background: linear-gradient(90deg, rgba(230,232,189,1) 0%, rgba(220,241,241,1) 51%, rgba(86,97,87,1) 97%);
     background-image: url("heldi1.jpg");
+    background-position: center;
     background-size: cover;
     overflow: auto;
   }
@@ -252,8 +253,8 @@ body{
     border-radius:5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     overflow: auto;
-    position: relative;
-	background-image: url("backgroundkaheldi.jpg");
+    position: center;
+    background-image: url("backgroundkaheldi.jpg");
     left: 50%;
     transform: translate(-50%);
 
